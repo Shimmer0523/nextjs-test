@@ -4,7 +4,6 @@ const assetPrefix = process.env.REPO_NAME ? `/${process.env.REPO_NAME}` : "";
 
 const nextConfig = {
   basePath: basePath,
-  assetPrefix: assetPrefix,
   output: "export",
 };
 
