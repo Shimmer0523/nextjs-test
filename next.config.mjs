@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-  basePath: "/nextjs-test",
+  basePath: process.env.GITHUB_ACTIONS && "/nextjs-test",
   output: "export",
 };
 
